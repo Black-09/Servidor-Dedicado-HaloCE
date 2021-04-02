@@ -3,47 +3,33 @@
 
 # Halo CE Servidor Dedicado en Docker
 
-## About
+# Halo CE Servidor Dedicado en Docker
 
-This is a Dockerfile for running the Halo CE dedicated server under Linux. The container uses Wine to run the Windows application and xvfb to create a virtual desktop.
+## Acerca de
 
-The container is running 100% headless - no GUI is required for installation, execution or configuration.
+Este es un archivo Docker para ejecutar el servidor dedicado de Halo CE en Linux. El contenedor utiliza Wine para ejecutar la aplicación de Windows y xvfb para crear un escritorio virtual.
 
-To install docker:
-
-apt update
-
-apt-get install docker.io
-
-## Usage
-
-SAPP 10.2.x is working! (UPX and no UPX versions for sapp 10.2 and 10.2.1) It is much more stable than 10.1 that the previous container used. Note: you can drop privileges! Example: sudo docker run -it -p 2302:2302/udp --cap-drop NET_RAW --cap-drop NET_BIND_SERVICE antimomentum/haloce
- 
-    docker run -it -p 2302:2302/udp antimomentum/haloce
+El contenedor se ejecuta 100% - no se requiere una GUI para la instalación, ejecución o configuración.
 
 
-No lead Team slayer server. Assult Rifle and Pistol starting weapons. Some of the regular Halo maps are used in the mapcycle:
+## Uso
+    docker run -it -p 2302:2302/udp [Codigo Generado]
 
-docker run -it -p 2302:2302/udp antimomentum/noleadts
-
-## Someone is DDOSing halo servers. 
-
-Within about 4 hours of a server being about full some no life is DDOSing halo servers. (If you configured your halo sever not to show in the game's server list it should be fine). I am currently looking into ways to stop/mitigate the attacks. The current ddos protection script did not work. I will update this section once I have a working solution.
-
-*update*
+## Alguien está DDOSing servidores de halo. 
+ayuda relevante si tu servidor esta siendo atacado por DDoS
 
 https://opencarnage.net/index.php?/topic/8149-halo-ce-servers-ddos/
 
 
-## To install custom server/sapp files!
+## Como crear tu servidor en un vps
 
-git clone https://github.com/antimomentum/haloce
+1- Renta un VPS de $5 dolares no esta mal para empezar y hacer pruebas.
 
-cd haloce
+2- Actualizar los repositorios de Linux mediante * apt update *
 
-mkdir halopull
+3- Instalar Docker en  el VPS apt-get install docker.io // instalar Docke
 
-mkdir 'Halo CE'
+4- 
 
 
 Now copy in the haloceded.exe, Strings.dll, sapp.dll (basically whatever is from you Program Files\Micorosft Games\Halo Custom Edition folder) in the halopull folder.
