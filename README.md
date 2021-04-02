@@ -33,8 +33,8 @@ https://opencarnage.net/index.php?/topic/8149-halo-ce-servers-ddos/
 # Pasos para hacer cambios a tu Servidor Dedicado de Halo CE
 ##
  1. Reiniciar el VPS
- 2. Borrar la carpeta con el siguiente comando /  rm -r Servidor-Dedicado-HaloCE
- 3. Abrir FileZilla y Conectarse al vps.
+ 2. Abrir FileZilla y Conectarse al vps.
+ 3. Buscar la carpeta Servidor-Dedicado-HaloCE
  4.
 
      
