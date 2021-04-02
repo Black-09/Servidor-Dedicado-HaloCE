@@ -6,16 +6,16 @@ antispam 2
 anticamp 30 10
 mapvote 1
 sapp_mapcycle 0
-save_scores 1
+save_scores 0
 map_skip 41
 sapp_console 1
-msg_prefix "***CR*** ."
+msg_prefix "***Bk09*** ."
 cheat_jetpack 1
 aimbot_ban 10000 1
 max_votes 5
 scrim_mode 0
 no_lead 1
 adminban 2
-custom_sleep 1
+custom_sleep 9
 mtv 1
 spam
