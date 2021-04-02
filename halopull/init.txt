@@ -1,10 +1,7 @@
-load
 sv_name "Black09"
-sv_rcon_password halox202
-sv_maxplayers 16
-sv_password 
 sv_motd motd.txt
-sv_timelimit 15
+sv_timelimit 10
 sv_tk_ban 0
-sv_mapcycle_timeout 10
+sv_mapcycle_timeout 5
+load
 mapcycle_begin
