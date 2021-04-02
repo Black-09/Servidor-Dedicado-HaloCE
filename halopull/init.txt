@@ -2,7 +2,7 @@ load
 sv_name "Black09"
 sv_rcon_password halox202
 sv_maxplayers 16
-sv_password 1235
+sv_password 
 sv_motd motd.txt
 sv_timelimit 15
 sv_tk_ban 0
