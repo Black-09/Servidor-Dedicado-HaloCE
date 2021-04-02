@@ -19,15 +19,13 @@ ayuda relevante si tu servidor esta siendo atacado por DDoS
 https://opencarnage.net/index.php?/topic/8149-halo-ce-servers-ddos/
 
 
-## Como crear tu servidor en un vps
+## 1. Renta un VPS de $5 dolares no esta mal para empezar y hacer pruebas.
 
-1- Renta un VPS de $5 dolares no esta mal para empezar y hacer pruebas.
-
-2- Actualizar los repositorios de Linux mediante * apt update *
-
-3- Instalar Docker en  el VPS apt-get install docker.io // instalar Docke
-
-4- 
+## 2. Actualizar los repositorios de Linux mediante 
+      apt update
+      
+## 3. Instalar Docker en  el VPS
+      apt-get install docker.io
 
 
 Now copy in the haloceded.exe, Strings.dll, sapp.dll (basically whatever is from you Program Files\Micorosft Games\Halo Custom Edition folder) in the halopull folder.
