@@ -35,7 +35,12 @@ https://opencarnage.net/index.php?/topic/8149-halo-ce-servers-ddos/
  1. Reiniciar el VPS
  2. Abrir FileZilla y Conectarse al vps.
  3. Buscar la carpeta Servidor-Dedicado-HaloCE
- 4.
+ 4. En la carpeta halopull se encuenta los archivos de ejecucion del servidor, en la carpeta de Halo CE estan los GameTypes y configuraciones secundarias del servidor SAPP.
+ 5. Despues de hacer los cambios... cerrar FileZilla.
+ 6. Es necesario volver a reconstruir elcontenedor de Docker, para eso debemos estar dentro del directorio [cd Servidor-Dedicado-HaloCE] y ejecutar el comando docker build .
+ 7. Ejecutar el servidor nuevamente con el comando / docker run -it -p 2302:2302/udp [Codigo Generado cuando se construye el nuevo contenedor]
+
+
 
      
     
