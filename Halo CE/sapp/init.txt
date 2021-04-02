@@ -4,7 +4,7 @@ ping_kick 500
 antihalofp 1
 antispam 2
 anticamp 30 10
-mapvote 1
+mapvote 0
 sapp_mapcycle 0
 save_scores 0
 map_skip 41
