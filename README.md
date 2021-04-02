@@ -23,21 +23,19 @@ https://opencarnage.net/index.php?/topic/8149-halo-ce-servers-ddos/
 
  1. Renta un VPS de $5 dolares no esta mal para empezar y hacer pruebas.
 
- 2. Actualizar los repositorios de Linux mediante.
-      apt update
+ 2. Actualizar los repositorios de Linux mediante / apt update
      
- 3. Instalar Docker en  el VPS.
-      apt-get install docker.io     
- 4. Clonar el este repositorio al VPS.
-      git clone https://github.com/Black-09/Servidor-Dedicado-HaloCE
      
- 5. Ingresar al directorio donde se aloja el repositorio.
-      cd Servidor-Dedicado-HaloCE
+ 3. Instalar Docker en  el VPS / apt-get install docker.io     
       
- 6. construir el nuevo contenedor de Docker.
-      docker build .
- 7. Ejecutar Nuestro servidor.
-      docker run -it -p 2302:2302/udp [Codigo Generado cuando se construye el nuevo contenedor]
+ 4. Clonar el este repositorio al VPS /  git clone https://github.com/Black-09/Servidor-Dedicado-HaloCE
+     
+ 5. Ingresar al directorio donde se aloja el repositorio / cd Servidor-Dedicado-HaloCE
+        
+ 6. construir el nuevo contenedor de Docker / docker build .
+      
+ 7. Ejecutar Nuestro servidor / docker run -it -p 2302:2302/udp [Codigo Generado cuando se construye el nuevo contenedor]
+      
 
 # Pasos para hacer cambios a tu Servidor Dedicado de Halo CE
 ##
