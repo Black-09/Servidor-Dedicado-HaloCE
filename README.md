@@ -13,6 +13,8 @@ El contenedor se ejecuta 100% - no se requiere una GUI para la instalación, eje
 ##
 # Programas necesarios
       FileZilla.
+      Instalar la Districion 18.04 de linux.
+
 ##
 ## Alguien está DDOSing servidores de halo. 
 ayuda relevante si tu servidor esta siendo atacado por DDoS
