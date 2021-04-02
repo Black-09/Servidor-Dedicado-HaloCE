@@ -5,7 +5,7 @@ antihalofp 1
 antispam 2
 anticamp 30 10
 mapvote 0
-sapp_mapcycle 0
+sapp_mapcycle 1
 save_scores 0
 map_skip 41
 sapp_console 1
