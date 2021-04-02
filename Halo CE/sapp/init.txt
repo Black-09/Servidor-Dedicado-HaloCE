@@ -1,21 +1,22 @@
-sv_rcon_password halo
-afk_kick 70
+sapp_rcon_password halox202
+afk_kick 120
 ping_kick 500
 antihalofp 1
 antispam 2
 anticamp 30 10
-mapvote 0
-sapp_mapcycle 1
-save_scores 0
-map_skip 41
-sapp_console 1
-msg_prefix "***Bk09*** ."
-cheat_jetpack 1
+antiglitch 1
+map_skip 60
 aimbot_ban 10000 1
 max_votes 5
-scrim_mode 0
+mapvote 1
+cheat_jetpack 0
+scrim_mode 1
+msg_prefix "***BK9*** ."
 no_lead 1
-adminban 2
-custom_sleep 9
-mtv 1
-spam
+sapp_mapcycle 0
+mapvote 1
+custom_sleep 1
+packet_limit 512
+dns s1.master.hosthpc.com
+full_ipban 1
+

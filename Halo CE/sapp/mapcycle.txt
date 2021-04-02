@@ -1,1 +1,14 @@
-bloodgulch:Sniper
+bloodgulch:CLB09
+ratrace:CLB09
+beavercreek:CLB09
+chillout:CLB09
+carousel:CLB09
+damnation:CLB09
+dangercanyon:CLB09
+deathisland:CLB09
+gephyrophobia:CLB09
+hangemhigh:CLB09
+ratrace:CLB09
+sidewinder:CLB09
+timberland:CLB09
+beavercreek:CLB09
