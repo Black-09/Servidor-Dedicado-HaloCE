@@ -1,4 +1,5 @@
 ![stability-wip](https://img.shields.io/badge/stability-unstable-lightgrey.svg)
+<img src="https://i.imgur.com/zRXWDEK.png" width="190" height="164" align="right"/>
 
 # Halo CE Servidor Dedicado en Docker
 
